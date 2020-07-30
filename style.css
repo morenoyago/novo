@@ -1,0 +1,240 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    margin: 0px;
+    display: block;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #eee;
+    padding: 20px;
+    
+  
+   
+}
+#nav-bar{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    
+    
+}
+ul, li{
+    display: flex;
+    text-decoration: none;
+    
+}
+a{
+    display: block;
+    text-decoration-line: none;
+    color: black;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+img{
+    width: 200px;
+}
+#layout{
+    padding-top: 150px;
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+}
+.layout{
+   padding-top: 120px;
+   padding-left: 50px;
+   font-weight: bolder;
+   color: #f1c40f;
+
+}
+#submit{
+    width: 150px;
+    justify-content: center;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+body{
+    background-color: #eee;;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#Features{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Features{
+    padding-left: 380px;
+    text-align: left;
+}
+#HowItWorks{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Pricing{
+width: 100%;
+}
+.Pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+h3{
+    padding-top: 10px;
+    width: 100%;
+    height:100%;
+}
+
+.Pricing1{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: khaki;
+    border-radius: 10px;
+    width: 231px;
+    height: 260px;
+}
+button{
+    width: 150px;
+    justify-content: center;
+    border: 5px;
+    margin: 7px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.foot{
+    display: flex;
+}
+.foot{
+    padding: 20px;
+}
+
+@media(max-width: 600px)
+{
+    #header{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #nav-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    ul, li{
+        display: none;
+        text-decoration: none;
+        
+    }
+    #layout{
+        padding-top: 150px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50%;
+        width: 100%;
+    }
+    .layout{
+        padding-top: 20px;
+        padding-left: 10px;
+
+     
+     }
+     #Features{
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        text-align: justify;        
+        text-align: center;
+     }
+    .Features{
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        text-align: justify;        
+        text-align: center;
+    }
+    .Pricing{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        padding-top: 10px;
+}
+    .Pricing1{
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+    #video{
+        width:100%;
+        height:60%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.foot{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+    
+}
